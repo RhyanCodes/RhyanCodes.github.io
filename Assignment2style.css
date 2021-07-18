@@ -1,0 +1,16 @@
+ .paragraphs {
+  border: 2px solid red;
+}
+
+ .p1 {
+   color: hotpink;
+   font-family: Arial;
+ }
+ .p2 {
+   color: pink;
+   font-family: Courier;
+ }
+ .p3 {
+   color: lightpink;
+   font-family: Corsiva;
+ }
