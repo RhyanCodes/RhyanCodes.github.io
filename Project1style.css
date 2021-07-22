@@ -1,0 +1,117 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.page1Top {
+  width: 100%;
+  height: 210px;
+  border: 0.1px solid gray;
+  border-left-color: white;
+  border-bottom-color: white;
+  border-right-color: #F6F6F6;
+}
+
+.leftIcon {
+  margin-top: 10px;
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  float: left;
+}
+
+.rightIcon {
+  right: 10px;
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.indexHeading {
+  text-align: center;
+}
+
+.introInfo {
+  font-size: 14px;
+}
+
+.icelandSights {
+  border: 2px solid black;
+  background-color: pink;
+  color: white;
+  width: 95%;
+  height: 550px;
+  position: relative;
+}
+.iS1{
+  padding-left: 10px;
+  font-size: 18px;
+  width: 25%;
+}
+
+.iS2 {
+  width: 25%;
+  height: 45%;
+  border: 2px solid purple;
+  margin-left: 150px;
+
+}
+
+.iS3 {
+  font-size: 22px;
+  width: 55%;
+  height: 45%;
+  position: absolute;
+  left: 650px;
+  bottom: 230px;
+}
+
+.iS4 {
+  width: 55%;
+  height: 45%;
+  font-size: 22px;
+  position: absolute;
+  left: 150px;
+  top: 340px;
+}
+
+.iS5 {
+  width: 20%;
+  height: 35%;
+  border: 2px solid purple;
+  position: absolute;
+  left: 1050px;
+  bottom: 30px;
+}
+th {
+  text-align: left;
+}
+table {
+  border: 2px solid black;
+}
+
+.table1 {
+  font-weight: normal;
+}
+
+.contact {
+  width: 4%;
+  height: 4%;
+  margin-left: 100px;
+}
+.contactInfo {
+  position: absolute;
+  font-size: 20px;
+  left: 200px;
+  top: 1600px;
+}
+
+.menu {
+  text-align: center;
+  font-size: 24px;
+}
+
+footer {
+  text-align: center;
+}
