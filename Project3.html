@@ -1,50 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 3</title>
-    <link rel="stylesheet" href="Project3.css">
-</head>
-<body>
-
-
-    <header>
-        <div class="top-container"><p>Guess the Number Between 1 and 100</p></div>
-        <div class="top-guess"><div class="text-box"><p>Guess my Number!</p></div></div>
-        <div class="top-play"><div class="top-button"><input type="button" value="Play!" class="reset"></div></div>
-    </header>
-
-    <div class="question"><h2><span class="question-text">?</span></h2></div>
-
-
-    <div class="bottom-container">
-        <div class="left1">
-            <div class="hint"><p class="hint-text white-text">Let's start Guessing...</p></div>
-            <div class="scores">
-                <div class="score">
-                    <div class="textemoji">🐖Score:<span class="score-text">10</span></div>
-                </div>
-                <br>
-                <div class="score">
-                    <div class="textemoji">🥇HighScore:<span class="highscore-text">0</span></div>
-                </div>
-            </div>
+    <link rel="stylesheet" href="Project2.css">
+  </head>
+  <body>
+      <header>
+        <div class="guess">
+          <p>Guess the Number between 1 and 100</p>
         </div>
-        <div class="mid1">
-            <div class="box">
-                <p>Guessing History</p>
-                <p class="history"></p>
-            </div>
+        <div class="guessMyNumber">
+          <br><br>
+          <p>Guess My Number!</p>
         </div>
-        <div class="right1">
-                <div class="number-box"><input type="text" value="" class="input-box" placeholder="0"></div>
-                <div class="submit-box"><input type="button" value="Check!" class="check-box"></div>
+        <div class="playButton">
+          <input type="text" class="play" value="Play!">
         </div>
-    </div>
+      </header>
 
-<script src="Project3.js"></script>
+      <div class="questionMark">
 
-</body>
+        <div class="qq">
+          <img src="questionMark.png" alt="">
+        </div>
+
+        <br>
+      </div>
+      <hr>
+      <br>
+      <br>
+      <div class="bottomContainer">
+        <div class="scoreCard">
+          <p><a class="hintWord">Let's Start Guessing.... </a><br> <br><br><br> <br> <br>🐯Score: <a class="scoreText">0</a><br>
+          🐉 High Score: <a class="highScore">0</a></p>
+        </div>
+        <div class="guessHistory">
+          <p>Guessing History </p> <a class="history"></a>
+        </div>
+        <div class="guessInput">
+          <input type="text" placeholder="0" class="guess1" > <br> <br>
+          <input type="button" value="Guess!" class="guess2">
+        </div>
+      </div>
+      <script type="Project3.js">
+
+      </script>
+  </body>
 </html>
+
